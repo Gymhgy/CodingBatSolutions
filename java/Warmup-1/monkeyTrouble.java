@@ -1,0 +1,17 @@
+package Warmup_1;
+
+import java.util.*;
+import java.util.stream.*;
+
+public class MonkeyTrouble {
+
+  /**
+   * We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
+   * Problem Source: https://codingbat.com/prob/p181646
+   */
+  public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+    return aSmile == bSmile;
+  }
+  
+
+}
